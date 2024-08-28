@@ -6,7 +6,7 @@ function validateSyntax() {
     // TODO: Write your validation logic here
     // Check if input starts with 'pet_' and followed by alphanumeric characters
   
-    const validSyntax = /^pet_[0-9][a-zA-Z0-9]+$/;
+    const validSyntax =/^pet_[0-9 a-z A-Z]+$/;
   
     if (validSyntax.test(input)) {
       result = 'Valid Syntax <span class="valid"></span>';
