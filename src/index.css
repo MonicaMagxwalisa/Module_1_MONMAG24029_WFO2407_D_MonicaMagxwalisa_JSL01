@@ -11,7 +11,7 @@ body {
     color: #6a5acd;
   }
   
-  input,
+  input, 
   button {
     font-size: 1em;
     padding: 10px;
@@ -35,22 +35,25 @@ body {
   #result {
     font-size: 2em;
     margin-top: 20px;
-  }
+    display: inline-flexbox;
+    
   
   .valid {
+    background-color: #04fd04;
     display: inline-block;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #04fd04;
+    font-weight: bold;
   }
   
   .invalid {
+    background-color: #ff0000;
     display: inline-block;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #ff0000;
+    font-weight: bold;
   }
   
   .emoji {
