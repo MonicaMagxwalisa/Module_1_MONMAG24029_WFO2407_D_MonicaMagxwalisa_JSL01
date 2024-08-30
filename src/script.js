@@ -2,7 +2,8 @@ function validateSyntax() {
   let input = document.getElementById("petInput").value;
   let result = ""; // Placeholder for validation result
 
-  // Regular expression to match 'pet_' followed by alphanumeric characters
+  //Validation logic
+  // Expression to match 'pet_' followed by alphanumeric characters
   const validSyntax = /^pet_\w+$/;
 
   if (validSyntax.test(input)) {
